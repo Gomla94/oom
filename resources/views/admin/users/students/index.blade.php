@@ -8,7 +8,7 @@
     <div class="right_col" role="main">
         <div class="page-title">
             <div class="title_left">
-                <h3>{{ sdmin_trans($elements)]) }}</h3>
+                <h3>{{ Helper::admin_trans($elements) }}</h3>
             </div>
 
             <div class="title_left">

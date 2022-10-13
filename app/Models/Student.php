@@ -23,11 +23,7 @@ class Student extends Authenticatable
 
     protected $fillable =
     [
-<<<<<<< HEAD
         'name', 'email', 'password', 'phone', 'address', 'notes', 'class_id', 'group_id', 'status', 'parent_phone_number'
-=======
-        'name', 'email', 'password', 'phone', 'address', 'notes', 'class_id', 'group_id', 'status'
->>>>>>> 4d69eea47646efb4522a0e57cd237320134c7a7c
     ];
     
     public function grade()
