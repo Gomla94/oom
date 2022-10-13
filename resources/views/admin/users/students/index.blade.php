@@ -71,9 +71,12 @@
                                                     <div class="btn-group">
                                                         <a href="{{ route('admin.' . $route . '.edit', [$element => $item->id]) }}" class="btn btn-primary"><i class="fa fa-edit"></i></a>
                                                         <a href="{{ route('admin.' . $route . '.show', [$element => $item->id]) }}" class="btn btn-info"><i class="fa fa-eye"></i></a>
+<<<<<<< HEAD
                                                         <a href="{{ route('admin.'.$route.'.qrcode', [$element => $item->id]) }}" class="btn btn-warning"><i class="fa fa-qrcode"></i></a>
                                                         {{-- <a href="{{ route('admin.'.$route.'.weekly_reports', ['id' => $item->id]) }}" class="btn btn-warning"><i class="fa fa-eye"></i></a> --}}
 
+=======
+>>>>>>> 4d69eea47646efb4522a0e57cd237320134c7a7c
                                                         {!! Form::open(
                                                         [
                                                             'route'     => ['admin.' . $route . '.destroy', $item->id],

@@ -582,6 +582,9 @@
     <div class="row">
         <div class="col-md-6">
             <img style="width: 100%;border-radius:10px" src="{{ asset('asset/website/assets/img/test.jpg') }}">
+            <div>
+                <a href="https://play.google.com/store/apps/details?id=com.fourDev.oomzaker"><img style="width: 180px;position: absolute;bottom: 0px;" src="{{ asset('asset/website/assets/img/google.png') }}" ></a>
+            </div>
            </div>
            <div class="col-md-6">
             <div class="frame">

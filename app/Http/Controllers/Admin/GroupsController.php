@@ -19,7 +19,10 @@ class GroupsController extends Controller
         'elements'  => 'groups',
         'element'   => 'group',
         'view'      => 'groups',
+<<<<<<< HEAD
         'students_attendaces' => 'student_attendances'
+=======
+>>>>>>> 4d69eea47646efb4522a0e57cd237320134c7a7c
     ];
     /**
      * Display a listing of the resource.
